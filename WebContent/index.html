@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add||Employee</title>
+</head>
+<body>
+	<h1>Add New Employee</h1>
+	<form method="post" action="SaveServlet">
+	
+		<table>
+			<tr><td>Name:</td><td><input type="text" name="name"></td></tr>
+			<tr><td>Password:</td><td><input type="text" name="pass"></td></tr>
+			<tr><td>Email:</td><td><input type="text" name="email"></td></tr>
+			<tr><td>Country:</td><td>
+			<select name="country">
+			<option value="India">India</option>
+			<option value="India">USA</option>
+			<option value="India">UK</option>
+			<option value="India">AUS</option>
+			</select>
+			</td></tr>
+			<tr><td><input type="submit" name="Submit" value="Save"></td></tr>
+		</table>
+	</form>
+	<br/>
+	<a href="ViewServlet">view Employees</a>
+</body>
+</html>
